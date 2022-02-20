@@ -16,6 +16,7 @@ p.append(h4_1);
 for (let i = 0; i < ingredients.length; i++) {
   let elementLi = document.createElement("li");
   elementLi.textContent = ingredients[i];
+  elementLi.classList = "item";
   list.append(elementLi);
 }
 
